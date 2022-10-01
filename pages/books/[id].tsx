@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Context } from "vm";
@@ -36,6 +37,10 @@ export default function Book({ book }: { book: IBook }) {
   
   return (
     <div className="m-10 font-body">
+      <Head>
+        <title>Book store</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="mb-5 flex flex-row justify-center text-center">
         <Link href="/">
           <span className="cursor-pointer hover:text-fuchsia-800">Book Store</span>
