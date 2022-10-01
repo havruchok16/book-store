@@ -515,9 +515,19 @@ video {
   margin-right: 0.5rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-14{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .mb-5{
@@ -528,8 +538,16 @@ video {
   display: flex;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .h-96{
   height: 24rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .w-80{
@@ -576,6 +594,20 @@ video {
   text-align: center;
 }
 
+.font-body{
+  font-family: "Montserrat";
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -587,6 +619,14 @@ video {
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.opacity-40{
+  opacity: 0.4;
+}
+
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:text-fuchsia-800:hover{
