@@ -19,7 +19,6 @@ export const getStaticProps = async () => {
   };
 };
 
-
 const Books = (props: IBooksResult) => {
   const { results } = props;
   const { query } = useRouter();
